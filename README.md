@@ -24,7 +24,7 @@ function myEach(arr, callback){
 }
 ```
 
-Discuss every line of this code. If the objective of a `forEach` is to run some bit of code on every element of an array, how does this code allow us to do this? Discuss how you would invoke this function and its arguments come from. 
+Discuss every line of this code. If the objective of a `forEach` is to run some bit of code on every element of an array, how does this code allow us to do this? Discuss how you would invoke this function and where its arguments come from. 
 
 Invoke `myEach` several times with your own array and callback.
 
@@ -43,5 +43,3 @@ For example: If our callback checks to see if a number is even, `[1,2,3,4]` goes
 ### Bonus
 
 1. Write `myFind`, which returns the first element it finds instead of every element in an array
-
-
