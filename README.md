@@ -49,3 +49,11 @@ For example: If our callback checks to see if a number is even, if `[1,2,3,4]` g
 Use the above `myEach` as a template to write your own `find` called `myFind`, which is similar to `filter` but instead returns only the first element it finds. 
 
 For example: If our callback checks to see if a number is greater than 5, if `[4,2,5,7,2,6,8]`, `7` should be returned.
+
+### Bonus: myReduce
+
+Write your own version of `reduce` called `myReduce`  
+
+`myReduce` should take **up to** 3 arguments: 1. an array (mandatory), 2. a callback (mandatory), and 3. an initial aggregator value (optional). 
+
+The callback passed to `reduce` itself should take 2 arguments: 1. an aggregator value and 2. the element. Whatever this callback returns becomes the **next aggregator value** for the following iteration. If you're not sure what this means, look up some implementations of `reduce` in Javascript with your group and discuss what it does. *Hint* `reduce` is really great for finding the sum of an array of numbers or combining an array of strings into one!
